@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #AEA23A;
+    padding :   10px 0;
+}
+
+.wrapper {
+        Width : 1024px;
+        padding: 10px 10px 5px 10px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.medsos {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.medsos ul li {
+    display: inline-block;
+    color: black;
+}
+.container {
+    margin: 0 auto;
+    width: 80%;
+
+}   
+
+
+#slider {
+    padding:0px 0px 100px 10px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+   
+
+    
+}
+
+
+.Contact h1 {
+    float: left;
+    color:black;
+   
+    padding: 25px 20px;
+}
+.Contact ul {
+    
+    float: right;
+}
+
+.Contact ul li {
+    display: inline-block;
+}
+
+.Contact ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+
+}
+.Contact ul li a:hover {
+    background-color: #AEA23A;
+    color: black;
+}
+
+.active {
+    background-color: #AEA23A;
+    color: black;
+
+}
+
+#about {
+    height: 130vh;
+    border: 1px solid;
+    background-image: url('../coding/olive.jpg');
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+#about {
+    padding: 10px 10 px;
+}
+
+.about-content {
+    display: flex;
+   padding-left: 60%;
+    
+    
+}
+
+.profile-picture {
+    width: 40%;
+    padding-top: 0px;
+}
+
+.profile-picture img {
+    width: 100%;
+}
+
+.about-text {
+    width: 60%;
+    padding-right: 0px;
+    
+}
+#skill {
+    Padding: 140px 0;
+    background: white;
+}
+
+.skill-set {
+    display: flex;
+}
+
+.skill-item {
+    background: grey;
+    padding: 10px;
+    width: 50%;
+    margin: 0 10px;
+    border-radius: 0px;
+    font-size: 18px;
+
+}
